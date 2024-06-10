@@ -54,6 +54,10 @@ class Home extends Component {
         this.setState(prevState=>({projectList:[...prevState.projectList,item],isCreated:true}))
     }
 
+    onClickProjects=()=>{
+        this.props.history.replace('/projects')
+    }
+
     render() {
         const { isOpen, createNewProject, isCreated } = this.state;
 
@@ -78,6 +82,7 @@ class Home extends Component {
                         <FaCirclePlus className='plusLogo' />
                         Create New Project
                     </button>
+                    <button onClick={this.onClickProjects} className='createProjectBtn' type='button'>Projects</button>
                 </div>
             </div>
         );
