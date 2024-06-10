@@ -1,0 +1,70 @@
+.settingsContainer{
+    display: flex;
+}
+.accountSettingsCard{
+    margin: 30px;
+}
+.profileDetailsCard{
+    display: flex;
+    width: 900px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+.settingsHeading{
+    color: #7E22CE;
+}
+.settingsInput{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.profileLogo{
+    font-size: 100px;
+    color: grey;
+    /* background-color: rgba(128, 128, 128, 0.527);
+    height: 100px;
+    padding: 10px;
+    border-radius: 60px; */
+}
+.subscriptonCard{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-between;
+    width: 900px;
+    padding: 30px;
+    height: 30px;
+    background-color: #7E22CE;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.subHead{
+    color: white;
+}
+.upgradeBtn{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #7E22CE;
+    font-weight: bold;
+}
+.sunCancelBtn{
+color: red;
+margin-top: 25px;
+height: 30px;
+width: 150px;
+text-decoration: underline;
+background-color: transparent;
+border: 0px;
+outline: none;
+cursor: pointer;
+}

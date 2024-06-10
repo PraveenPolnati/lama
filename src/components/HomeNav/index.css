@@ -1,0 +1,39 @@
+.HomeNavCard{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+    margin: 10px;
+    color: #7E22CE;
+
+}
+.lamaHeading{
+    color: #7E22CE;
+    font-size: 30px;
+}
+.logoCard{
+    display: flex;
+    align-items: center;
+    color: #7E22CE;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 0px;
+    outline: none;
+    background-color: transparent;
+}
+.bellAndSettingsCard{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.settingsLogo{
+    font-size: 30px;
+    cursor: pointer;
+}
+.bellLogo{
+    font-size: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}

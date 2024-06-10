@@ -1,0 +1,27 @@
+.popupCard{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 20vh;
+    width: 40vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 50px;
+    font-family: 'Roboto';
+}
+
+.submitBtn{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: #7E22CE;
+    border: 0px;
+    outline: none;
+    margin-left: 10px;
+    color: white;
+}
+
+.gmailInputEle{
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+}

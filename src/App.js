@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter,Switch,Route} from 'react-router-dom'
+import './App.css'
+import { Component } from 'react'
+import Home from './components/Home'
+import Projects from './components/Projects'
+import ProjectDetails from './components/ProjectDetails'
+import Transcript from './components/Transcript'
+import ProtectedRoute from './components/ProtectedRoute'
+import WedgetConfiguration from './components/WedgetConfiguration'
+import AccountSettings from './components/AccountSettings'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+
+  render(){
+    return(
+      <BrowserRouter>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <ProtectedRoute exact path='/projects' component={Projects}/>
+          <ProtectedRoute exact path='/projectDetails/:id' component={ProjectDetails}/>
+          <ProtectedRoute exact path="/projectDetails/:id/transcript" component={Transcript} />
+          <ProtectedRoute exact path='/projectDetails/wedgetconfiguration/:id' component={WedgetConfiguration}/>
+          <ProtectedRoute exact path='/accountSettings/:id' component={AccountSettings}/>
+          <Route component={WedgetConfiguration}/>
+        </Switch>
+      </BrowserRouter>
+    )
+  }
+
 }
 
-export default App;
+export default App

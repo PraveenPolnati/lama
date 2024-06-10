@@ -1,0 +1,139 @@
+.wedgetCard{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.ConfigHeading{
+    color: #7E22CE;
+}
+.wedgetContainer{
+    margin-left: 20px;
+}
+.wedgetBtnCard{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.btnWedget{
+    border: 0px;
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+.WedgetLine{
+    width: 78vw;
+    margin-right: 20px;
+}
+.activeBtn{
+    color: #7E22CE;
+    font-weight: bold;
+    text-decoration: solid underline;
+}
+.displayController{
+    display: none;
+}
+.generalCard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    margin: 30px;
+}
+.displayCard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    overflow: scroll;
+    height: 500px;
+    scrollbar-width: 5px;
+    scrollbar-color: grey;
+}
+.generalInputEle{
+    width: 700px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1xp solid grey;
+}
+.generalLabeltext{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.displayCard1{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.primaryColorInput{
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    outline: none;
+}
+.displayPrimaryColor{
+    margin-left: 10px;
+    height: 50px;
+    background-color: transparent;
+    border: 0px;
+}
+.inputAndDisplayCard{
+    display: flex;
+    align-items: center;
+}
+.fontSizeInput{
+    width: 300px;
+}
+.chatIconSizeInput{
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid grey;
+    margin-top: 10px;
+}
+.positionInput{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    outline: none;
+    margin-top: 10px;
+    margin-right: 22px;
+}
+.uploadIconBtn{
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 10px;
+    background-color: #7E22CE;
+    color: white;
+    cursor: pointer;
+}
+.dummyIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: grey;
+    margin-top: -10px;
+    color: transparent;
+}
+.dummyIconCard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 40px;
+}

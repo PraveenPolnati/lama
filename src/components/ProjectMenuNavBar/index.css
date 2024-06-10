@@ -1,0 +1,84 @@
+.MenuNavbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    background-color: #F3E8FF;
+    height: calc(100vh);
+}
+.logoCard{
+    padding-top: 5px;
+}
+.podcastMenuHeading{
+    padding-left: 20px;
+}
+.menulist{
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+}
+.menuItem{
+    height: 40px;
+    width: 220px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    border: 0px;
+    outline: none;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.listNum{
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.311);
+    line-height: 2;
+    border-radius: 20px;
+}
+.line{
+    color: white;
+    width: 250px;
+    height: 1px;
+    background-color: rgb(141, 130, 130);
+    border: 0px;
+    margin: 20px;
+}
+.MenuactiveBtn{
+    background-color: #7E22CE;
+    color: white;
+}
+.menuItem:hover{
+    background-color: #1D1B2014;
+}
+.settingsCard{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.settingsText{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.settingsIcon{
+    font-size: 20px;
+    font-style: "Roboto";
+}
+.menuBtnLink{
+    text-decoration: none;
+    color: initial;
+}
+.menuListCard{
+    list-style: none;
+}

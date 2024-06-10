@@ -1,0 +1,54 @@
+.createProjectPopupCard{
+    width: 50vw;
+    height: 35vh;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectTitle{
+    width: 40vw;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+.createProjectBtnCard{
+    align-items: end;
+    text-align: end;
+    margin-top: 10px;
+}
+
+.cancelBtn{
+    height: 30px;
+    width: 80px;
+    border: 0px;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: red;
+}
+
+.CreateBtn{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #7E22CE;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+}
+
+.emptyTitleWarning{
+    color: red;
+}
+
+.opacityValue{
+    opacity: 0.2;
+}
