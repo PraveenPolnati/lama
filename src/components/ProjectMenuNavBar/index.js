@@ -6,7 +6,7 @@ import './index.css';
 
 const menuList = [
     { id: '1', name: 'ProjectDetails', path: '/projectDetails' },
-    { id: '2', name: 'Webget Configuration', path: '/projectDetails/wedgetconfiguration' },
+    { id: '2', name: 'Wedget Configuration', path: '/projectDetails/wedgetconfiguration' },
     { id: '3', name: 'Deployment', path: '/none' },
     { id: '4', name: 'Pricing', path: '/none' }
 ];
