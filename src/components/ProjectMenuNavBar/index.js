@@ -37,12 +37,16 @@ class ProjectMenuNavBar extends Component {
         this.props.history.replace(`/accountSettings/${id}`);
     }
 
+    clickOnLogo = ()=>{
+        this.props.history.replace("/")
+    }
+
     render() {
         const {isActiveBtn } = this.state;
         return (
             <div className="MenuNavbar">
                 <div className="card1">
-                    <button type="button" className="logoCard">
+                    <button onClick={this.clickOnLogo} type="button" className="logoCard">
                         <ImBasecamp className='logo' />
                         <h1>LAMA.</h1>
                     </button>
